@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: url("logo.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.menubar{
+    background:  rgb(7, 223, 71);
+    text-align: center;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menubar ul li{
+    width: 120px;
+    padding: 15px;
+    margin:15px;
+    
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menubar ul li:hover{
+    background: green;
+    border-radius: 3px;
+}
+.submenu1{
+    display: none;
+}
+.sub-menu-1{
+    display: none;
+}
+.menubar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:rgb(7, 223, 71);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menubar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+#about{
+    font-size: 20px;
+}
+
+
+#footer{
+    text-align: center;
+    color: rgb(221, 64, 64);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 0px 0px 0px;
+}
+#footer{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
